@@ -1,0 +1,7 @@
+{
+  "name": "react-native-maestro-plugin",
+  "version": "0.1.0",
+  "description": "Testing E2E de apps Expo/React Native dirigido por IA vía Maestro MCP: explora la app en vivo y genera flows Maestro reproducibles.",
+  "author": { "name": "Justin", "email": "justinoctavio2001@gmail.com" },
+  "keywords": ["react-native", "expo", "maestro", "testing", "e2e", "mcp"]
+}
