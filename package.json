@@ -1,0 +1,13 @@
+{
+  "name": "react-native-maestro-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Claude Code plugin: AI-driven E2E testing for Expo / React Native apps via the Maestro MCP, generating reproducible Maestro flows.",
+  "license": "MIT",
+  "author": { "name": "Justin", "email": "justinoctavio2001@gmail.com" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinoctavius/react-native-maestro-plugin.git"
+  },
+  "keywords": ["claude-code", "plugin", "react-native", "expo", "maestro", "testing", "e2e", "mcp"]
+}
