@@ -1,0 +1,8 @@
+# Plantilla: abrir una ruta directa por deep link (Expo Router).
+appId: com.tuempresa.tuapp
+---
+- launchApp
+- openLink: "myapp://product/123"
+- assertVisible:
+    id: "product-detail-screen"
+- assertVisible: "123"

@@ -1,0 +1,18 @@
+# Plantilla: login con email/contraseña en una app Expo/RN.
+# Reemplazá appId y los id (testID) por los de tu app.
+appId: com.tuempresa.tuapp
+---
+- launchApp:
+    clearState: true
+- assertVisible:
+    id: "login-screen"
+- tapOn:
+    id: "email-input"
+- inputText: "user@example.com"
+- tapOn:
+    id: "password-input"
+- inputText: "secret123"
+- tapOn:
+    id: "login-button"
+- assertVisible:
+    id: "home-screen"

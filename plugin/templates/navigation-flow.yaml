@@ -1,0 +1,17 @@
+# Plantilla: navegación por tabs / stack en una app Expo Router.
+appId: com.tuempresa.tuapp
+---
+- launchApp
+- assertVisible:
+    id: "home-tab"
+- tapOn:
+    id: "profile-tab"
+- assertVisible:
+    id: "profile-screen"
+- tapOn:
+    id: "settings-button"
+- assertVisible:
+    id: "settings-screen"
+- back
+- assertVisible:
+    id: "profile-screen"
