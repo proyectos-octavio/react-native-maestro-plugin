@@ -37,6 +37,16 @@ Re-ejecutá el flow generado sin IA:
 maestro test .maestro/login-con-email.yaml
 ```
 
+## Convención por-proyecto
+
+El setup de Maestro *dentro* de cada app (carpeta `.maestro/` con `config.yaml`,
+`smoke.yaml` y `README.md`, más los scripts `test:e2e` / `test:e2e:studio`) lo genera el
+template `expo` de
+[`@octavius2929-personal/scaffold-generator`](https://github.com/proyectos-octavio/scaffold-generator)
+al activar la opción `maestroSetup`. Las convenciones están documentadas en la skill
+`conventions-maestro` del plugin `standards`. Este plugin aporta la capa de **sesión
+asistida** (`/rn-setup`, `/rn-test`) encima de ese setup.
+
 ## Por qué no es "Playwright"
 
 Playwright solo automatiza navegadores; no llega a la capa nativa de iOS/Android. Para E2E
